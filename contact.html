@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio | Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    
+    <nav class="nav-container">
+        <div class="nav-content">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="contact-container">
+        <div class="about-section" data-aos="fade-up">
+            <h1 class="section-title">About Me</h1>
+            <p class="about-text">
+                I am a Computer Science student at the University of Greenwich, expected to graduate in June 2026. 
+                My academic journey focuses on Intelligence and Modeling, Simulations, and App development for both iOS and Android platforms.
+                I am passionate about creating innovative solutions and constantly learning new technologies.
+            </p>
+            <div class="education">
+                <h2>Education</h2>
+                <div class="education-item">
+                    <h3>University of Greenwich</h3>
+                    <p>BSc. in Computer Science</p>
+                    <p>Expected Graduation: June 2026</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-section" data-aos="fade-up" data-aos-delay="100">
+            <h2>Get in Touch</h2>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+
+            <div class="social-links">
+                <a href="https://github.com/Kaunak-stack" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/kaunak-bhattacharya-553886258/" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html> 
